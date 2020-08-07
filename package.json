@@ -1,0 +1,16 @@
+{
+  "name": "babel-plugin-print-functions-with-hash-code",
+  "version": "1.0.0",
+  "description": "A Babel Plugin to print functions during transpilation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest test/"
+  },
+  "author": "bars0um",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-plugin-tester": "^6.5.0",
+    "jest": "^24.9.0"
+  }
+}
