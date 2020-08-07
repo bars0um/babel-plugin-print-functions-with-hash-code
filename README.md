@@ -9,6 +9,11 @@ The solution was to have that function display a hash-code for the function name
 code and we would check exactly where the error started.
 
 ```
+// return caller's caller
+function getFuncName() {
+  return getFuncName.caller.caller.name;
+}
+
 // Example of our code
 
 GenericHandler(callback){
