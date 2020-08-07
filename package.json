@@ -2,7 +2,7 @@
   "name": "babel-plugin-print-functions-with-hash-code",
   "version": "1.0.0",
   "description": "A Babel Plugin to print functions during transpilation",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest test/"
   },
